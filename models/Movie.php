@@ -7,13 +7,12 @@ class Movie {
     public $author;
     public $genre;
 
-    // constructor 
-
+    // construct 
     function __construct($_title, $_comingOut) {
         $this->title = $_title;
         $this->comingDate = $_comingOut;
     }
-    
+
     // per TITLE dichiaro metodo della classe Movie setter
     public function setTitle($title) {
         if($title !== '') {
