@@ -1,15 +1,11 @@
 <?php
-// definisco la classe Movie
-class Movie {
-
-}
+require_once __DIR__ . '/models/Movie.php';
 // istanzio due classi Movie, Inception e DallasBuyerClub
 $Inception = new Movie();
 $DallasBuyerClub = new Movie();
 
-
-// ottengo i due oggetti riferiti alla classe Movie
+echo "<pre>";
 var_dump($Inception);
-echo "<hr>";
 var_dump($DallasBuyerClub);
+echo "</pre>";
 ?>
