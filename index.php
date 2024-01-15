@@ -7,4 +7,9 @@ class Movie {
 $Inception = new Movie();
 $DallasBuyerClub = new Movie();
 
+
+// ottengo i due oggetti riferiti alla classe Movie
+var_dump($Inception);
+echo "<hr>";
+var_dump($DallasBuyerClub);
 ?>
